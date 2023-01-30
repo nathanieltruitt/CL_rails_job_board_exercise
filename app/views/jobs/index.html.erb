@@ -1,0 +1,5 @@
+<h1>Take a look at these bro! There's JOBS!</h1>
+
+<% @postings.each do |post| %>
+  <%= render 'job', job: post %>
+<% end %>
